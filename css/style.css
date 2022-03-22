@@ -110,7 +110,7 @@ nav .navbar-nav li {
     font-size: 14px;
 }
 
-.report-section .report .table thead tr th {
+.table tr th {
     border-top: none;
     border-bottom: none;
     color: #919191;
@@ -118,30 +118,30 @@ nav .navbar-nav li {
     font-weight: bold;
 }
 
-.report-section .report .table tbody tr td,
-.report-section .report .table tbody tr th {
+.table tr td,
+.table tr th {
     border: none;
     height: 40px;
     color: #7a7a7a;
     font-size: 14px;
 }
 
-.report-section .report .table tbody tr td button {
+.table tr td button {
     background: transparent;
     color: #7a7a7a;
     border-color: #b3b3b3;
 }
 
-.report-section .report .table tbody tr td button:hover {
+.table tr td button:hover {
     background: #7a7a7a;
     color: #fff;
 }
 
-.report-section .report .table tbody tr td h5 {
+.table tr td h5 {
     font-size: 14px;
 }
 
-.report-section .report .table tbody tr td a {
+.table tr td a {
     color: #a5a5a5;
     font-weight: bold;
 }
@@ -152,6 +152,18 @@ nav .navbar-nav li {
 
 .report-title .create-btn:hover {
     background: rgba(238, 238, 238, 0.493);
+}
+
+.form {
+    border-right: 2px solid #c4c4c4;
+}
+
+.form-section {
+    justify-content: center;
+}
+
+ul li {
+    margin-left: 15px;
 }
 
 @media (max-width: 900px) {
